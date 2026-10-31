@@ -1,0 +1,35 @@
+# Python
+cli/.venv/
+cli/**/__pycache__/
+cli/**/*.egg-info/
+cli/dist/
+cli/build/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# Node / React
+web/node_modules/
+web/dist/
+web/.env
+web/.env.local
+
+# Flutter
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.packages
+mobile/build/
+mobile/.pub-cache/
+mobile/ios/Pods/
+mobile/android/.gradle/
+
+# General
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
